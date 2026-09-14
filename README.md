@@ -1,7 +1,6 @@
 # Karim Ladak
 
-Software engineer building applied AI, healthcare, and scientific systems.  
-Austin / Houston · open to remote.
+Software engineer building applied AI, healthcare, and scientific systems.
 
 [Portfolio](https://kladak.github.io) · [LinkedIn](https://linkedin.com/in/kladak77) · [GitHub](https://github.com/kladak)
 
