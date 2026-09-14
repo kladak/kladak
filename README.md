@@ -1,25 +1,31 @@
 # Karim Ladak
 
-Software engineer — health tech, clinical AI, and production systems. Austin / Houston · open to remote.
+Software engineer building applied AI, healthcare, and scientific systems.  
+Austin / Houston · open to remote.
 
-**GitHub:** [github.com/kladak](https://github.com/kladak) · **Site:** [kladak.github.io](https://kladak.github.io) · **LinkedIn:** [kladak77](https://linkedin.com/in/kladak77)
+[Portfolio](https://kladak.github.io) · [LinkedIn](https://linkedin.com/in/kladak77) · [GitHub](https://github.com/kladak)
 
-## Flagship work
+## Featured systems
 
-| Project | What it shows |
-|---------|----------------|
-| [clinicalRAG](https://github.com/kladak/clinicalRAG) | LangGraph RAG with citations, refusal guards, offline evals |
-| [syncura-readmission](https://github.com/kladak/syncura-readmission) | Readmission risk on synthetic EHR + SHAP + dashboard |
-| [trinity-care](https://github.com/kladak/trinity-care) | Family ↔ facility senior-care app (Expo + API) |
-| [merchantlens](https://github.com/kladak/merchantlens) | Bundle-lift product analytics |
-| [matchcare](https://github.com/kladak/matchcare) | Clean-room multi-tenant specialty matching (FastAPI + React) |
-| [agent-reliability](https://github.com/kladak/agent-reliability) | Tool-using agent harness, traces, graders, regression gates |
-| [motioncode](https://github.com/kladak/motioncode) | Scientific ML ECG pipelines (honest synthetic CI metrics) |
-| [vesicle-seg](https://github.com/kladak/vesicle-seg) | Harris Lab–aligned EM vesicle seg (Zarr, overlapping chunks, residual 3D U-Net); synthetic CI only |
-| [PLAN-IT](https://github.com/kladak/PLAN-IT) | Full-stack plant scoring API + Expo UI |
+| Project | Focus |
+|---------|--------|
+| [clinicalRAG](https://github.com/kladak/clinicalRAG) | Retrieval-augmented clinical decision support — LangGraph pipeline, citation grounding, refusal guards, offline evals |
+| [agent-reliability](https://github.com/kladak/agent-reliability) | Tool-using agent harness — traces, graders, retries/timeouts, regression gates |
+| [motioncode](https://github.com/kladak/motioncode) | Scientific ML for ECG classification — reproducible pipelines, baselines, leakage checks |
+| [PLAN-IT](https://github.com/kladak/PLAN-IT) | Full-stack plant recommendation — Flask API, scoring engine, Expo UI |
 
-Educational demos only where noted — not medical devices; no fabricated production traffic.
+## Additional work
+
+| Project | Notes |
+|---------|--------|
+| [vesicle-seg](https://github.com/kladak/vesicle-seg) | EM vesicle segmentation (Zarr, overlapping chunks, residual 3D U-Net) — synthetic benchmarks |
+| [syncura-readmission](https://github.com/kladak/syncura-readmission) | 30-day readmission risk on synthetic EHR with SHAP explanations |
+| [matchcare](https://github.com/kladak/matchcare) | Multi-tenant specialty matching SaaS demo |
+| [merchantlens](https://github.com/kladak/merchantlens) | Product analytics — bundle lift scoring |
+| [trinity-care](https://github.com/kladak/trinity-care) | Family ↔ facility senior-care connection app (Expo + API) |
+
+Where noted, demos use synthetic data and are not clinical products.
 
 ## Stack
 
-Python · FastAPI · TypeScript/React · Expo · LangGraph · pytest · Docker · GitHub Actions
+Python · FastAPI · TypeScript / React · Expo · LangGraph · PyTorch · pytest · Docker · GitHub Actions
