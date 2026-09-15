@@ -1,6 +1,6 @@
 # Karim Ladak
 
-Software engineer building applied AI, healthcare, and scientific systems.
+Software engineer. Applied AI, healthcare, and scientific systems.
 
 [Portfolio](https://kladak.github.io) · [LinkedIn](https://linkedin.com/in/kladak77) · [GitHub](https://github.com/kladak)
 
@@ -8,22 +8,19 @@ Software engineer building applied AI, healthcare, and scientific systems.
 
 | Project | Focus |
 |---------|--------|
-| [clinicalRAG](https://github.com/kladak/clinicalRAG) | Retrieval-augmented clinical decision support — LangGraph pipeline, citation grounding, refusal guards, offline evals |
-| [agent-reliability](https://github.com/kladak/agent-reliability) | Tool-using agent harness — traces, graders, retries/timeouts, regression gates |
-| [motioncode](https://github.com/kladak/motioncode) | Scientific ML for ECG classification — reproducible pipelines, baselines, leakage checks |
-| [PLAN-IT](https://github.com/kladak/PLAN-IT) | Full-stack plant recommendation — Flask API, scoring engine, Expo UI |
+| [clinicalRAG](https://github.com/kladak/clinicalRAG) | Grounded clinical Q&A: LangGraph pipeline, per-sentence citation attribution, grounding score, refusal guards, offline evals |
+| [agent-reliability](https://github.com/kladak/agent-reliability) | Tool-using agent harness: JSONL traces, deterministic graders, and a CI gate that fails on failure-class drift |
+| [vesicle-seg](https://github.com/kladak/vesicle-seg) | 3-D EM segmentation: Zarr storage, overlapping-chunk inference with inner-region writes, residual U-Net against a threshold baseline |
+| [motioncode](https://github.com/kladak/motioncode) | Waveform classification: record-grouped splits with leakage tests, feature baselines at 0.733 accuracy against a 0.467 CNN |
+| [matchcare](https://github.com/kladak/matchcare) | Multi-tenant FastAPI/React SaaS: bcrypt/JWT auth, role dependencies, `org_id` scoping enforced in the queries |
+| [PLAN-IT](https://github.com/kladak/PLAN-IT) | Flask API and Expo client for plant recommendation, built with a team at UT Austin and later extended |
 
-## Additional work
+## Also here
 
-| Project | Notes |
-|---------|--------|
-| [vesicle-seg](https://github.com/kladak/vesicle-seg) | EM vesicle segmentation (Zarr, overlapping chunks, residual 3D U-Net) — synthetic benchmarks |
-| [syncura-readmission](https://github.com/kladak/syncura-readmission) | 30-day readmission risk on synthetic EHR with SHAP explanations |
-| [matchcare](https://github.com/kladak/matchcare) | Multi-tenant specialty matching SaaS demo |
-| [merchantlens](https://github.com/kladak/merchantlens) | Product analytics — bundle lift scoring |
-| [trinity-care](https://github.com/kladak/trinity-care) | Family ↔ facility senior-care connection app (Expo + API) |
-
-Where noted, demos use synthetic data and are not clinical products.
+[syncura-readmission](https://github.com/kladak/syncura-readmission) (readmission risk with
+SHAP explanations) · [trinity-care](https://github.com/kladak/trinity-care) (senior-care
+Expo + FastAPI app) · [merchantlens](https://github.com/kladak/merchantlens) (market-basket
+lift analytics).
 
 ## Stack
 
